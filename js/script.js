@@ -6,7 +6,7 @@
 
 "use strict"
 
-function buttonOneClicked() {
+function calculatePressed() {
   document.getElementById("answer").innerHTML =
     "The answer is: " + "insert answer here"
 }
