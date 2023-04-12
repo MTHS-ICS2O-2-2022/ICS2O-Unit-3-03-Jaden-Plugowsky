@@ -12,7 +12,7 @@ function calculatePressed() {
   const radius = parseFloat(document.getElementById("radius").value)
 
   //Process
-  const volume = 4/3 * Math.PI * radius ** 3
+  const volume = (4 / 3) * Math.PI * radius ** 3
 
   //Output
   document.getElementById("answer").innerHTML =
