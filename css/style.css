@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: lightcoral;
+  background-color: rgb(255 204 153);
 }
 
 a {
@@ -22,9 +22,9 @@ a {
 
 .right-image {
   height: auto;
-  width: 250px;
+  width: 150px;
   float: right;
-  margin-right: 150px;
+  margin-right: 380px;
 }
 
 .mdl-content {
@@ -33,7 +33,7 @@ a {
 
 .mdl-layout__content {
   margin-left: 20px;
-  color: white;
+  color: black;
 }
 
 .mdl-layout__header-row {
@@ -41,12 +41,16 @@ a {
 }
 
 .mdl-layout-title {
-  color: white;
+  color: black;
 }
 
 #button-one {
   margin-left: 60px;
   margin-top: 10px;
+}
+
+#answer {
+  font-size: 20px;
 }
 
 #header-fix {
