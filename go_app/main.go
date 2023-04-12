@@ -22,10 +22,10 @@ func main() {
 	fmt.Scanln(&radius)
 
 	// Process
-	volume = 4 / 3 * math.Pi * math.Pow(radius, 3)
+	volume = 4.0 / 3.0 * math.Pi * math.Pow(radius, 3)
 
 	// Output
-	fmt.Println("The volume of the Sphere is: %.2f", volume, "cm³.")
+	fmt.Printf("\nThe volume of the Sphere is: %.2f cm³.", volume)
 
-	fmt.Println("\nDone.")
+	fmt.Println("\n\nDone.")
 }
